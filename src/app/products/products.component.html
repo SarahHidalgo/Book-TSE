@@ -1,1 +1,13 @@
-<p>products works!</p>
+<p>Products : </p>
+<li *ngFor="let product of products">
+    <div>
+        <p>{{product.name}}</p>
+        <p>{{product.price}}</p>
+        <p>{{product.description}}</p>
+        <p>{{product.image}}</p>
+
+    </div>
+</li>
+
+
+

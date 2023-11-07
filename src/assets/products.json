@@ -2,14 +2,14 @@
     {
         "id": 1,
         "name": "Twilight, tome 1 Fascination",
-        "price": 19.95,
+        "price": 19,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
         "image": "twilight-tome-1-fascination.jpg"
     },
     {
         "id": 2,
         "name": "Twilight, tome 2 Tentation",
-        "price": 19.95,
+        "price": 19,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
         "image": "twilight-tome-2-tentation.jpg"
     }
