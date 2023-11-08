@@ -9,7 +9,6 @@ import { UsersComponent } from './users/users.component'
 
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'contact_form', component: ContactFormComponent},
   { path: 'orders', component: OrdersComponent },

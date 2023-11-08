@@ -1,13 +1,10 @@
-<p>Products : </p>
-<li *ngFor="let product of products">
-    <div>
-        <p>{{product.name}}</p>
-        <p>{{product.price}}</p>
-        <p>{{product.description}}</p>
-        <p>{{product.image}}</p>
-
-    </div>
-</li>
-
-
+<ul>
+  <li *ngFor="let product of (products_b | async)">
+    <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
+    <p>ID: {{ product.id }}</p>
+    <p>Name: {{ product.name }}</p>
+    <p>Price: {{ product.price }}</p>
+    <p>Description: {{ product.description }}</p>
+  </li>
+</ul>
 
