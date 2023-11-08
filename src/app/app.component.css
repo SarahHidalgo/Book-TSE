@@ -1,23 +1,29 @@
 nav {
-    background-color: aqua;
+    display: flex;
     margin: 0; /* Réinitialise la marge du nav */
+    height: 50px;
+    background-color: blanchedalmond;
+    align-items: center;
+    align-content: center;
 }
 ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: blueviolet;
-    margin: 0; /* Réinitialise la marge du nav */
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background-color: aqua;
+    margin: 0;
 }
 li {
     list-style-type:none;
     margin: 15px;
-    background-color: blue;
-    margin: 0; /* Réinitialise la marge du nav */
+    margin: 0; 
 }
 a {
     text-decoration:none;
-    margin: 0; /* Réinitialise la marge du nav */
+    margin: 0; 
 }
 
 .body_app{
@@ -25,5 +31,5 @@ a {
     flex-direction: column;
     align-content: center;
     margin: 0px;
-    padding: 0px; /* Réinitialise les marges internes du navigateur */
+    padding: 0px;
 }

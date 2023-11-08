@@ -2,7 +2,7 @@
   <h1 class="genres"> Fantasy 🐉 </h1>
   <div class="container">
     <ul>
-      <li *ngFor="let product of (products_b | async)" class="product">
+      <li *ngFor="let product of (products_b | async)" class="product"  [routerLink]="['/products', product.id]">
         <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
         <p>Name: {{ product.name }}</p>
         <p>Price: {{ product.price }} $</p>
@@ -13,7 +13,7 @@
   <h1 class="genres"> Science Fiction </h1>
   <div class="container">
     <ul>
-      <li *ngFor="let product of (products_b | async)" class="product">
+      <li *ngFor="let product of (products_b | async)" class="product"  [routerLink]="['/products', product.id]">
         <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
         <p>Name: {{ product.name }}</p>
         <p>Price: {{ product.price }} $</p>
