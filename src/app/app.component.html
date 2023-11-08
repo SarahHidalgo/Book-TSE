@@ -1,20 +1,22 @@
-<ul>Ouhouhouh bella
-</ul>
-<nav>
-    <ul>
-        <li>
-            <a routerLink="/contact_form" routerLinkActive="active"> Contact Form </a>
-        </li>
-        <li>
-            <a routerLink="/products" routerLinkActive="active"> Products </a>
-        </li>
-        <li>
-            <a routerLink="/orders" routerLinkActive="active"> Orders </a>
-        </li>
-        <li>
-            <a routerLink="/users" routerLinkActive="active"> Users </a>
-        </li>
-    </ul>
-</nav>
 
-<router-outlet></router-outlet>
+<div class="body_app">
+    <h1> EchoesOfPages.com </h1>
+    <nav>
+        <ul style="list-style-type:none;">
+            <li>
+                <a routerLink="/products" routerLinkActive="active"> Products </a>
+            </li>
+            <li>
+                <a routerLink="/orders" routerLinkActive="active"> Orders </a>
+            </li>
+            <li>
+                <a routerLink="/users" routerLinkActive="active"> Users </a>
+            </li>
+            <li>
+                <a routerLink="/contact_form" routerLinkActive="active" > Contact Form </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <router-outlet></router-outlet> 
+</div>

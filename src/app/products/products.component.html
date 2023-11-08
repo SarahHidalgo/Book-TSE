@@ -1,10 +1,22 @@
-<ul>
-  <li *ngFor="let product of (products_b | async)">
-    <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
-    <p>ID: {{ product.id }}</p>
-    <p>Name: {{ product.name }}</p>
-    <p>Price: {{ product.price }}</p>
-    <p>Description: {{ product.description }}</p>
-  </li>
-</ul>
-
+  <div class="body_products">
+    <h2 class="genres"> Fantasy 🐉 </h2>
+    <div class="container">
+      <ul>
+        <li *ngFor="let product of (products_b | async)" class="product"  [routerLink]="['/products', product.id]">
+          <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
+          <p>{{ product.name }}</p>
+          <p>Price: {{ product.price }} $</p>
+        </li>
+      </ul>
+    </div>
+    <h2 class="genres"> Science Fiction </h2>
+    <div class="container">
+      <ul>
+        <li *ngFor="let product of (products_b | async)" class="product"  [routerLink]="['/products', product.id]">
+          <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
+          <p>{{ product.name }}</p>
+          <p>Price: {{ product.price }} $</p>
+        </li>
+      </ul>
+    </div>
+  </div>
