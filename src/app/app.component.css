@@ -1,3 +1,29 @@
+nav {
+    background-color: aqua;
+    margin: 0; /* Réinitialise la marge du nav */
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    margin: 0; /* Réinitialise la marge du nav */
+}
 li {
     list-style-type:none;
+    margin: 15px;
+    background-color: blue;
+    margin: 0; /* Réinitialise la marge du nav */
+}
+a {
+    text-decoration:none;
+    margin: 0; /* Réinitialise la marge du nav */
+}
+
+.body_app{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0px;
+    padding: 0px; /* Réinitialise les marges internes du navigateur */
 }

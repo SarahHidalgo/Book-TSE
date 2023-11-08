@@ -1,3 +1,48 @@
-li {
-    list-style-type:none;
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 0px;
+}
+p {
+    margin: 0px;;
+}
+
+.body_products {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: auto; /* Activation de la barre de défilement horizontale */
+    width: 100%;
+    height: 400px; /* Définissez la hauteur souhaitée ici */
+    margin-left: 5px;
+}
+
+.product {
+    list-style-type: none;
+    flex-direction: column;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    width: 180px;
+}
+
+.product img {
+    max-width: 100%; /* Pour ajuster la largeur de l'image au conteneur */
+    height: auto; /* Pour conserver le rapport hauteur/largeur de l'image */
+}
+
+.genres{
+    margin: 0px;
+    padding-left: 8px;
 }
