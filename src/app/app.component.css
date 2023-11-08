@@ -1,10 +1,35 @@
+
+.body_app{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.body_app h1 {
+    text-align: center; /* Centrer le texte horizontalement */
+}
+h1 {
+    font-family: 'Alegreya', serif; /* Police avec empattement */
+  font-weight: 100; /* Utiliser la variante "Thin" */
+  font-size: 36px; /* Ajuster la taille */
+}
+  
+
+/*CSS navigation*/
 nav {
     display: flex;
-    margin: 0; /* Réinitialise la marge du nav */
+    margin: 0;
+    margin-bottom: 15px;
     height: 50px;
-    background-color: blanchedalmond;
     align-items: center;
     align-content: center;
+    border-radius: 5px;
+    border-color:#5b344f;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #5b344f;;
+    box-shadow: 5px 5px 10px #5b344f;
 }
 ul{
     display: flex;
@@ -13,7 +38,6 @@ ul{
     align-items: center;
     align-content: center;
     width: 100%;
-    background-color: aqua;
     margin: 0;
 }
 li {
@@ -23,13 +47,9 @@ li {
 }
 a {
     text-decoration:none;
-    margin: 0; 
+    margin: 0;
+    color: black;
 }
-
-.body_app{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin: 0px;
-    padding: 0px;
+nav a:hover {
+    text-decoration: underline;
 }

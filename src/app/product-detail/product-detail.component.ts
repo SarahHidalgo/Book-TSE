@@ -24,7 +24,6 @@ ngOnInit() {
       });
     } else {
       console.log("l'id est nul");
-      // Gérer le cas où l'ID est null, par exemple rediriger ou afficher un message d'erreur.
     }
   }
  
