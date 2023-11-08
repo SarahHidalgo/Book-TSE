@@ -20,7 +20,7 @@ img {
     flex-direction: column;
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
-    width: 40%;
+    width: 30%;
 }
 
 .details {
@@ -28,15 +28,16 @@ img {
     flex-direction: column;
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
-    width: 60%;
+    width: 70%;
     margin: 10px;
 }
+/*Description du livre */
 .synopsis{
     color: #331D2C;
     margin-top: 20px;
     margin-bottom: 20px;
     border-style: solid;
-    border-color: #c3c3c3;
+    border-color: #c3c3c371;
     box-shadow: 5px 5px 10px #888888;
     border-width: 1px;
     border-radius: 5px;
@@ -49,6 +50,37 @@ img {
 .résumé{
     padding: 5px;
 }
+/*Auteurs*/
+.auteurs_div{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #c3c3c371;
+    box-shadow: 5px 5px 10px #888888;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.auteurs{
+    width: 100%;
+}
+
+/*Themes du livre*/
+.themes_div{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #c3c3c371;
+    box-shadow: 5px 5px 10px #888888;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.themes{
+    width: 100%;
+}
+
+
 
 p{
     color: #331D2C;
@@ -58,7 +90,8 @@ p{
     border-radius: 5px;
     background-color: #F1EFEF;
     margin: 0px;
-    align-items: center;    
+    align-items: center;
+    padding-left: 5px;
 }
 h2{
     color: #3F2E3E;
@@ -73,6 +106,7 @@ h2{
 }
 .price{
     background-color: #F1EFEF;
+    text-align: center;
     display: flex;
     width: 50%;
     height: 50px;
@@ -81,4 +115,5 @@ h2{
     margin: 0px;
     align-items: center; 
     color: #331D2C;
+    box-shadow: 5px 5px 10px #888888;
 }
