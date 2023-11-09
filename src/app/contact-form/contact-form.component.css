@@ -1,5 +1,45 @@
-body {
-    background-color: #001C30;
-    margin: 0px;
-    padding: 0px;
+.my-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding:0 10px 10px 10px;
+    margin-bottom:10px;
+    border:1px solid #3F2E3E;
+    width: 30%;
+}
+legend{
+    display: flex;
+    color:#3F2E3E;
+    font-weight:bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    display: flex;
+    max-width: 400px;
+}
+
+button {
+    width: auto; /* Pour permettre au bouton de s'ajuster à sa propre largeur */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+em{
+    color: red;
 }
