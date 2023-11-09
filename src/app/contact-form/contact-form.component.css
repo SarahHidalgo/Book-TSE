@@ -1,5 +1,66 @@
-body {
-    background-color: #001C30;
-    margin: 0px;
-    padding: 0px;
+.my-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding:0 10px 10px 10px;
+    margin-bottom:10px;
+    border:1px solid #f1ebe485;
+    width: 30%;
+    background-color: #f1ebe485;
+}
+legend{
+    display: flex;
+    font-weight:bold;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #362d22;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    display: flex;
+    max-width: 400px;
+    margin-top: 5px;
+}
+input, textarea {
+    border:1px solid;
+    border-radius:5px;
+    border-style: none;
+    background-color: #f0e5d8;
+}
+input{
+    height: 25px;
+    margin-top: 5px;
+}
+label{
+    color: #18140f;
+}
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    background-color:#eba550;
+}
+em{
+    color: red;
 }

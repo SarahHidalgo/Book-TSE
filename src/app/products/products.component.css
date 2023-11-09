@@ -45,7 +45,7 @@ ul {
 }
 
 .product:hover {
-    background-color: rgba(245, 177, 225, 0.632);
+    background-color: rgba(235, 165, 80, 0.785);
     color: #000;
 }
 .genres{
@@ -62,7 +62,7 @@ p{
 }
   
 ::-webkit-scrollbar-thumb {
-    background-color: #c270a9ce; 
+    background-color: #eba55087; 
     border-radius: 10px;
 }
   
