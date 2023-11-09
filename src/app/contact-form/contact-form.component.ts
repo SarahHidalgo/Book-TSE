@@ -7,20 +7,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-form.component.css']
 })
 export class ContactFormComponent implements OnInit{
-  ngOnInit(): void {
-  }
+    
   name: string = '';
   email: string = '';
   message: string = '';
+  
+  ngOnInit(): void {
+  }
 
   validateForm() {
     if (this.email && this.message) {
-      // Envoyer le formulaire
       console.log('Formulaire valide, envoyez-le !');
+      // Affichage d'une alerte avec infos remplies
+      alert(`Nom: ${this.name}\nEmail: ${this.email}\nMessage: ${this.message}`)
     } else {
-      console.log('Veuillez remplir tous les champs.');
+      console.log('Veuillez remplir les champs email et/ou message');
+      alert('Veuillez remplir les champs email et/ou message');
     }
   }
-
-
 }
