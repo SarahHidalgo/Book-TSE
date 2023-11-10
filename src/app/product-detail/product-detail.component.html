@@ -1,27 +1,33 @@
 <div class="product-detail-body">
     <div class="product-details" *ngIf="product">
         <div class="title_img">
-            <h2>{{ product.name }}</h2>
+            <h2>{{ product.title }}</h2>
             <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
         </div>
         <div class="details">
             <div class="auteurs_div">
                 <p> Auteur(s) </p>
                 <div class="auteurs">
-                    {{ product.name }}
+                    {{ product.author }}
                 </div>
             </div>
-            <div class="price">Price: {{ product.price }} $</div>
+            <div class="price">Price: {{ product.price }} €</div>
             <div class="synopsis">
                 <p> Synopsis </p>
                 <div class="résumé">
-                    {{ product.description }}
+                    {{ product.synopsis }}
                 </div>
             </div>
             <div class="themes_div">
                 <p> Themes principaux  </p>
                 <div class="themes">
-                    {{ product.image }}
+                    {{ product.themes }}
+                </div>
+            </div>
+            <div class="dates_div">
+                <p> Date de sortie   </p>
+                <div class="release">
+                    {{ product.release_date }}
                 </div>
             </div>
             <button class="btn_buy"> Buy </button>
