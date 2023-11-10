@@ -1,114 +1,212 @@
 [
     {
         "id": 1,
-        "name": "Twilight, tome 1 Fascination",
-        "price": 19,
-        "description": "Bella, dix-sept ans, décide de quitter l'Arizona ensoleillé où elle vivait avec sa mère, pour s'installer chez son père. Elle croit renoncer à tout ce qu'elle aime, certaine qu'elle ne s'habituera jamais ni à la pluie ni à Forks où l'anonymat est interdit. Mais elle rencontre Edward, lycéen de son âge, d'une beauté inquiétante. Quels mystères et quels dangers cache cet être insaisissable, aux humeurs si changeantes? A la fois attirant et hors d'atteinte, Edward Cullen n'est pas humain. Il est plus que ça. Bella en est certaine.",
+        "title": "Twilight, Tome 1 : Fascination",
+        "synopsis": "Bella, dix-sept ans, décide de quitter l'Arizona ensoleillé où elle vivait avec sa mère, pour s'installer chez son père. Elle croit renoncer à tout ce qu'elle aime, certaine qu'elle ne s'habituera jamais ni à la pluie ni à Forks où l'anonymat est interdit. Mais elle rencontre Edward, lycéen de son âge, d'une beauté inquiétante. Quels mystères et quels dangers cache cet être insaisissable, aux humeurs si changeantes? A la fois attirant et hors d'atteinte, Edward Cullen n'est pas humain. Il est plus que ça. Bella en est certaine.",
+        "author": "Stephenie Meyer",
+        "price": 19.95,
+        "themes": ["Amour", "Amitié", "Famille", "Fantastique", "Bit-lit", "Littérature jeunesse"],
+        "release_date": "2 novembre 2005 (Français)",
         "image": "twilight-tome-1-fascination.jpg"
     },
     {
         "id": 2,
-        "name": "Twilight, tome 2 Tentation",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
+        "title": "Twilight, Tome 2 : Tentation",
+        "synopsis": "\"Tu ne me reverras plus. Je ne reviendrai pas. Poursuis ta vie, je ne m'en mêlerai plus. Ce sera comme si je n'avais jamais existé.\" Rejetée par celui qu'elle aime passionnément, Bella ne s'en relève pas. Fascinée par un vampire, comment pourrait-elle retrouver goût à la pâle existence humaine ? Pourtant il faut vivre. Mais Bella n'a de goût pour rien, sinon le danger : alors elle entend la voix d'Edward, et éprouve l'illusion de sa présence. Comme s'il ne l'avait pas abandonnée, comme s'il tenait encore à elle. Bella échappera-t-elle à cette obsession amoureuse qui la hante ? A quel prix ?",
+        "author": "Stephenie Meyer",
+        "price": 19.95,
+        "themes": ["Amour", "Amitié", "Triangle amoureux", "Famille", "Bit-lit", "Fantastique"],
+        "release_date": "19 janvier 2007 (Français)",
         "image": "twilight-tome-2-tentation.jpg"
     },
     {
         "id": 3,
-        "name": "Twilight, tome 1 Fascination",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-1-fascination.jpg"
+        "title": "Twilight, Tome 3 : Hésitation",
+        "synopsis": "\"Deux futurs, deux âmes sœurs... C'était trop pour une seule personne. Je compris que ce n'était pas Edward et Jacob que j'avais essayé de réconcilier, c'étaient les deux parts de moi-même, la Bella d'Edward et la Bella de Jacob. Malheureusement, elles ne pouvaient coexister et j'avais eu tort de tenter de les y contraindre. A présent, je ne doute pas de ce que je désire, ni de ce dont j'ai besoin... ni de ce que je vais faire, là, maintenant.\"",
+        "author": "Stephenie Meyer",
+        "price": 19.95,
+        "themes": ["Amour", "Fantastique", "Triangle amoureux", "Adolescence", "Bit-lit", "Guerre"],
+        "release_date": "24 janvier 2008 (Français)",
+        "image": "twilight-tome-3-hesitation.jpg"
     },
     {
         "id": 4,
-        "name": "Twilight, tome 2 Tentation",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-2-tentation.jpg"
+        "title": "Twilight, Tome 4 : Révélation",
+        "synopsis": "\"N'aie pas peur, murmurai-je. Nous sommes faits l'un pour l'autre.\"L'instant était si parfait, si juste qu'il était impossible d'en douter. Ses bras se refermèrent autour de moi, me pressant contre lui... \"A jamais\", renchérit-il.Bella a fait son choix, et plus rien ne semble pouvoir l'empêcher de vivre ses rêves. Mais si ce choix s'avérait bien plus dangereux qu'il n'y paraît ? Et si Bella risquait d'y perdre la vie ?",
+        "author": "Stephenie Meyer",
+        "price": 19.95,
+        "themes": ["Amour", "Amitié", "Famille", "Bit-lit", "Triangle amoureux", "Suspense"],
+        "release_date": "12 novembre 2008 (Français)",
+        "image": "twilight-tome-4-revelation.jpg"
     },
     {
         "id": 5,
-        "name": "Twilight, tome 1 Fascination",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-1-fascination.jpg"
+        "title": "La Faucheuse, Tome 1 : Futur parfait",
+        "synopsis": "Les commandements du Faucheur: Tu tueras. Tu tueras sans aucun parti pris, sans sectarisme et sans préméditation. Tu accorderas une année d'immunité à la famille de ceux qui ont accepté ta venue. Tu tueras la famille de ceux qui t'ont résisté. Best-seller aux Etats-Unis, ce premier tome de la trilogie La Faucheuse est déjà en cours d'adaptation par les studios Universal.",
+        "author": "Neal Shusterman",
+        "price": 18.90,
+        "themes": ["Dystopie", "Science-Fiction", "Mort", "Futur", "Young Adult", "Intelligence artificielle"],
+        "release_date": "16 février 2017 (Français)",
+        "image": "la-faucheuse-tome-1.jpg"
     },
     {
         "id": 6,
-        "name": "Twilight, tome 2 Tentation",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-2-tentation.jpg"
+        "title": "La Faucheuse, Tome 2 : Thunderhead",
+        "synopsis": "Intelligence artificielle omnipotente qui gère la Terre pour l’humanité, le Thunderhead ne peut en aucun cas intervenir dans les affaires de la Communauté des Faucheurs. Il ne peut qu’observer… et il est loin d’aimer ce qu’il voit. Une année s’est écoulée depuis que Rowan a volontairement disparu des radars. Depuis, il est devenu une véritable légende urbaine, un loup solitaire qui traque les Faucheurs corrompus et les immole par le feu. La rumeur de ses faits d’armes se propage bientôt à travers tout le continent Méricain. Désormais connue sous le nom de Dame Anastasia, Citra glane ses sujets avec beaucoup de compassion, manifestant ouvertement son opposition aux idéaux du « Nouvel Ordre » institué par Maître Goddard. Mais lorsque sa vie est menacée et ses méthodes remises en question, il devient clair que les faucheurs ne sont pas tous prêts à embrasser le changement qu’elle propose. Le Thunderhead interviendra-t-il ? Ou se contentera-t-il d’observer la lente descente aux enfers de ce monde parfait ?",
+        "author": "Neal Shusterman",
+        "price": 19.50,
+        "themes": ["Dystopie", "Science-Fiction", "Mort", "Intelligence artificielle", "Young Adult", "Immortalité"],
+        "release_date": "15 mars 2018 (Français)",
+        "image": "la-faucheuse-tome-2.jpg"
     },
     {
         "id": 7,
-        "name": "Twilight, tome 1 Fascination",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-1-fascination.jpg"
+        "title": "La Faucheuse, Tome 3 : Le Glas",
+        "synopsis": "Dans un monde qui a conquis la mort, l'humanité sera-t-elle anéantie par les êtres immortels auxquels elle a donné naissance ? Le sinistre maître Goddard se prépare à prendre le pouvoir suprême sur la communauté des faucheurs. Seul celui qu'on nomme 'Le Glas' pourrait faire basculer l'humanité du côté de la vie... La conclusion époustouflante de la trilogie 'La faucheuse' en cours d'adaptation au cinéma par les studios Universal.",
+        "author": "Neal Shusterman",
+        "price": 21,
+        "themes": ["Dystopie", "Mort", "Science-Fiction", "Futur", "Immortalité", "Lutte de pouvoir"],
+        "release_date": "28 novembre 2019 (Français)",
+        "image": "la-faucheuse-tome-3.jpg"
     },
     {
         "id": 8,
-        "name": "Twilight, tome 2 Tentation",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-2-tentation.jpg"
+        "title": "Caraval, Tome 1 (poche)",
+        "synopsis": "Depuis qu’elle a dix ans, Scarlett envoie des lettres au maître de Caraval, Légende, pour qu’il vienne donner son extraordinaire spectacle sur son île. Alors qu’elle a dix-sept ans et qu’elle est sur le point de se marier avec un inconnu, le maître de Caraval lui répond enfin. Il l’invite, elle et sa sœur Donatella à venir sur l’île des Songes pour voir le spectacle... Mais leur père, un homme tyrannique, refuse qu’elles s’y rendent. Aidées par Julian, un marin, les deux sœurs s’échappent. Mais quand le bateau accoste sur l’île des Songes, Donatella a disparu, enlevée par Légende. Scarlett découvre que cette année le spectacle prend la forme d’un jeu dont le but est de retrouver sa sœur. Le gagnant verra son souhait le plus cher exaucé. Prête à tout pour sauver sa sœur, Scarlett accepte de participer, aidée par Julian. La jeune fille découvre alors un monde troublant, empreint de magie. Scarlett a beau savoir que tout ce qui se passe à Caraval n’est qu’un jeu, elle se retrouve bientôt empêtrée dans un univers à cheval entre rêve et réalité. Finalement, dans ce monde, Scarlett n’est sûre que d’une chose : si elle ne retrouve pas sa sœur avant que les cinq nuits du jeu soient écoulées, celle-ci disparaîtra pour toujours...",
+        "author": "Stephanie Garber",
+        "price": 8.90,
+        "themes": ["Fantasy", "Magie", "Young Adult", "Romance", "Aventure", "Légendes"],
+        "release_date": "4 juillet 2018 - Poche (Français)",
+        "image": "caraval-tome-1.jpg"
     },
     {
         "id": 9,
-        "name": "Twilight, tome 1 Fascination",
-        "price": 19.95,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-1-fascination.jpg"
+        "title": "Caraval, Tome 2 : Legendary",
+        "synopsis": "Après avoir sauvé sa sœur, Scarlett, d’un mariage désastreux, Donatella reçoit la lettre d’un mystérieux ami avec qui elle passe un marché. Si elle lui livre le vrai nom de Légende, le maître du jeu Caraval, il l’aidera à retrouver Paloma, leur mère, qu’elles n’ont pas vue depuis huit ans. Mais si elle ne respecte pas son engagement, la jeune fille perdra tout ce qui compte pour elle, peut-être même sa vie… Quand une nouvelle édition du jeu est organisée à Valenda pour les 70 ans de l’impératrice Élantine, Donatella doit y participer pour remplir sa mission. Dès son arrivée, les ennuis commencent. Elle devra faire preuve de ruse et de courage afin de gagner cette nouvelle partie… Attention, nouveau jeu, nouvelles règles…",
+        "author": "Stephanie Garber",
+        "price": 8.90,
+        "themes": ["Fantasy", "Magie", "Aventure", "Young Adult", "Romance", "Légendes"],
+        "release_date": "2 janvier 2020 - Poche (Français)",
+        "image": "caraval-tome-2.jpg"
     },
     {
         "id": 10,
-        "name": "Twilight, tome 2 Tentation",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-2-tentation.jpg"
+        "title": "Caraval, Tome 3 : Finale",
+        "synopsis": "Bienvenue, Bienvenue, Vous êtes invité au couronnement de L'Héritier perdu d'Élantine qui se déroulera le 10ème jour de la saison chaude. Les festivités commenceront au crépuscule. Deux mois se sont écoulés depuis la libération des Fatalités du Jeu de la Destinée, et les épreuves continuent pour les sœurs Dragna. Scarlett est sur le point de découvrir un secret qui va bouleverser les fondements de son existence. Quant à Donatella, elle fait face à la froideur de Légende, qui s'est déclaré héritier du trône d'Élantine. Mais le danger d'un cœur brisé, la sécurité de l'empire ou leurs propres vies ne sont plus les seuls prix en jeu. Scarlett et Donatella vont devoir affronter la pire des Fatalités, l'Étoile Tombée du Ciel, au risque de tout perdre... Bienvenue, Bienvenue dans Finale. Tout jeu doit prendre fin.",
+        "author": "Stephanie Garber",
+        "price": 9,
+        "themes": ["Fantasy", "Romance", "Aventure", "Magie", "Amour impossible", "Mystère"],
+        "release_date": "20 février 2022 (Français)",
+        "image": "caraval-tome-3.jpg"
     },
     {
-        "id": 6,
-        "name": "Twilight, tome 2 Tentation",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-2-tentation.jpg"
+        "id": 11,
+        "title": "Le Chant d'Achille",
+        "synopsis": "Patrocle, jeune prince maladroit, est exilé à la cour du roi Pelée. Il y rencontre Achille, son exact contraire, doué pour tout ce qu'il entreprend. Malgré leurs différences, les deux jeunes hommes deviennent inséparables. Quand débute la guerre de Troie, Achille part combattre. Tiraillé entre son amour pour son ami et la peur du danger, Patrocle décide de l'accompagner. La violence des hommes et des dieux transformera leur histoire en drame.",
+        "author": "Madeline Miller",
+        "price": 9,
+        "themes": ["Romance", "Mythologie grecque", "Mythologie", "Homosexualité", "Amour", "Guerre"],
+        "release_date": "2 avril 2015 - Poche (Français)",
+        "image": "le-chant-dachille.jpg"
     },
     {
-        "id": 7,
-        "name": "Twilight, tome 1 Fascination",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-1-fascination.jpg"
+        "id": 12,
+        "title": "Lore",
+        "synopsis": "Parce qu'ils ont défié Zeus, les dieux de l'Olympe doivent se soumettre à l'Agôn : tous les sept ans, pendant sept jours, ils descendent sur Terre et perdent leur immortalité. Les descendants des lignées de héros peuvent alors les tuer, s'approprier leurs pouvoirs et devenir des dieux à leur tour... jusqu'au prochain Agôn. New York, de nos jours. Lore, dernière survivante des Perséides après que son clan a été anéanti par une famille rivale, essaie d'oublier ces événements traumatiques. Mais un soir, elle trouve sur le pas...",
+        "author": "Alexandra Bracken",
+        "price": 9.90,
+        "themes": ["Mythologie grecque", "Young Adult", "Vengeance", "Familles ennemies", "Lutte de pouvoir", "Fantastique"],
+        "release_date": "8 février 2023 - Poche (Français)",
+        "image": "lore.jpg"
     },
     {
-        "id": 6,
-        "name": "Twilight, tome 2 Tentation",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-2-tentation.jpg"
+        "id": 13,
+        "title": "Meilleurs ennemis : De la haine à l'amour, il n'y a qu'un pas",
+        "synopsis": "Le jour où Lucy rencontre son nouveau collègue, Joshua Templeman, elle n’en revient pas : il est à tomber ! Sauf qu’il ne lui faut pas plus de deux secondes pour découvrir qu’il est aussi froid, cynique, impitoyable… absolument détestable ! Alors, quand leurs chefs respectifs les mettent en concurrence pour une promotion, Lucy est prête à tout pour le battre. Car, si elle gagne, elle sera sa boss. S’il gagne… elle démissionnera. Autant dire qu’elle n’a pas le choix : elle doit gagner. Mais lorsque, un soir, dans l’ascenseur, ce traître de Josh l’embrasse fougueusement, elle est complètement déstabilisée. Se serait-elle trompée à son sujet depuis le début ? Ou est-ce une tactique de Josh pour lui faire perdre ses moyens ?",
+        "author": "Sally Thorne",
+        "price": 7.90,
+        "themes": ["Comédie romantique", "Romance", "Humour", "Chick lit", "Romance Contemporaine", "New Adult"],
+        "release_date": "8 septembre 2021 - Poche (Français)",
+        "image": "meilleurs-ennemis.jpg"
     },
     {
-        "id": 7,
-        "name": "Twilight, tome 1 Fascination",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-1-fascination.jpg"
+        "id": 14,
+        "title": "Aristote et Dante, Tome 1 : Aristote et Dante découvrent les secrets de l'univers",
+        "synopsis": "Ari, quinze ans, est un adolescent en colère, silencieux, dont le frère est en prison. Dante, lui, est un garçon expansif, drôle, sûr de lui. Ils n'ont a priori rien en commun. Pourtant, ils nouent une profonde amitié, une de ces relations qui changent la vie à jamais... C'est donc l'un avec l'autre, et l'un pour l'autre, que les deux garçons vont partir en quête de leur identité et découvrir les secrets de l'univers.",
+        "author": "Benjamin Alire Sáenz",
+        "price": 8.30,
+        "themes": ["Romance", "Young Adult", "Adolescents", "Amitié", "Découverte"],
+        "release_date": "2 mai 2019 - Poche (Français)",
+        "image": "aristote-et-dante-tome-1.jpg"
     },
     {
-        "id": 6,
-        "name": "Twilight, tome 2 Tentation",
-        "price": 19,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-2-tentation.jpg"
+        "id": 15,
+        "title": "Puzzle",
+        "synopsis": "Ilan et Chloé sont spécialistes des chasses au trésor. Longtemps, ils ont rêvé de participer au jeu ultime, celui dont on ne connaît que le nom : Paranoïa. Le jour venu, ils reçoivent la règle numéro 1 : Quoi qu'il arrive, rien de ce que vous allez vivre n'est la réalité. Il s'agit d'un jeu. Suivie, un peu plus tard, de la règle numéro 2 : L'un d'entre vous va mourir. Et quand les joueurs trouvent un premier cadavre, jeu et réalité commencent à se confondre. Paranoïa peut alors réellement commencer...",
+        "author": "Franck Thilliez",
+        "price": 9.20,
+        "themes": ["Thriller psychologique", "Suspense", "Thriller", "Folie", "Huis clos", "Meurtre"],
+        "release_date": "3 novembre 2014 - Poche (Français)",
+        "image": "puzzle.jpg"
     },
     {
-        "id": 7,
-        "name": "Twilight, tome 1 Fascination",
-        "price": 19.90,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis aliquam lectus. Proin posuere, purus.",
-        "image": "twilight-tome-1-fascination.jpg"
+        "id": 16,
+        "title": "Covenant, Tome 1 : Sang-mêlé",
+        "synopsis": "Sur une île au large de la Caroline du Nord vivent les hematoï, des individus au sang pur et aux pouvoirs divins capables de maîtriser les quatre éléments. Ceux dont la lignée a connu un métissage sont contraints de choisir leur destin : intégrer le corps des Sentinelles du Covenant pour chasser les démons, leurs ennemis originels, ou être réduits à la servitude. De retour depuis peu au Covenant pour des raisons qui lui appartiennent, Alexandria n'a pas le choix : fille d'une hématoï et d'un simple mortel, elle se doit de...",
+        "author": "Jennifer L. Armentrout",
+        "price": 14.90,
+        "themes": ["Fantastique", "Amour interdit", "Young Adult", "Mythologie grecque", "Combats", "Romance paranormale"],
+        "release_date": "11 octobre 2017 (Français)",
+        "image": "covenant-tome-1.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Covenant, Tome 2 : Sang-pur",
+        "synopsis": "Compte tenu de son passif familial et de ce qu’elle est vouée à devenir, on attend d’Alexandria une conduite exemplaire. Entre ses entraînements supplémentaires, les cauchemars qui l’assaillent et la présence continuelle de Seth, il s’agit quasiment d’une mission impossible ! De plus, la jeune femme doit se rendre à l’évidence : sa connexion avec l’Apollyon s’intensifie chaque jour, même si cela ne change en rien ce qu’elle ressent pour Aiden, ni ce qu’il sacrifie pour elle… Quand les démons trouvent le moyen d’infiltrer le Covenant pour attaquer des cadets, les dieux envoient des Furies en guise de protection. Bras armé de la justice divine, ces dernières sont chargées d’éliminer tout danger ou menace, sans distinction ni exception. Et il semble que quelqu’un soit déterminé à pousser Alex à la faute…",
+        "author": "Jennifer L. Armentrout",
+        "price": 14.90,
+        "themes": ["Mythologie grecque", "Fantastique", "Young Adult", "Triangle amoureux", "Combats", "Romance"],
+        "release_date": "11 avril 2018 (Français)",
+        "image": "covenant-tome-2.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Mo Dao Zu Shi - Le Grand Maître de la cultivation démoniaque : Tome 1",
+        "synopsis": "Découvrez ce chef-d'œuvre de la fantasy chinoise qui a inspiré la série The Untamed (Netflix), véritable carton d'audience qui a dépassé les 10 milliards de vues dans le monde.Wei Wuxian était autrefois l’un des hommes les plus puissants de sa génération, un jeune cultivateur talentueux et intelligent qui, de par ses prodigieuses capacités, maîtrisait aussi bien les arts martiaux que la spiritualité. Mais, lorsque les horreurs de la...",
+        "author": "Mo Xiang Tong Xiu",
+        "price": 21.90,
+        "themes": ["Chine", "Fantasy", "Danmei", "Romance M/M", "Aventure"],
+        "release_date": "7 décembre 2022 (Français)",
+        "image": "mo-dao-zu-shi-tome-1.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Mo Dao Zu Shi - Le Grand Maître de la cultivation démoniaque : Tome 2",
+        "synopsis": "Sur la piste d'un corps démembré, Wei Wuxian et Lan Wangji arrivent aux portes de la ville de Yi : une vieille ville abandonnée, enveloppée de brume et remplie d'esprits agités. Dans l’ombre, un ennemi diabolique rôde, annonciateur d’une histoire tragique et déchirante. Et lorsque l'identité du mystérieux cadavre se révèle, Wei Wuxian se retrouve propulsé en plein cœur des intrigues politiques du monde de la cultivation. Un monde dans lequel il vaut mieux garder ses ennemis proches. Et Lan Wangji plus proche encore.",
+        "author": "Mo Xiang Tong Xiu",
+        "price": 21.90,
+        "themes": ["Danmei", "Romance M/M", "Chine", "Guerre", "Magie", "Romance"],
+        "release_date": "16 août 2023 (Français)",
+        "image": "mo-dao-zu-shi-tome-2.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Lightlark : Tome 1",
+        "synopsis": "Le Centennal commence... Pour rompre la malédiction, l'un d'entre eux doit mourir.Tous les cent ans, l'île maudite de Lightlark réapparaît pour accueillir le Centennal, une compétition meurtrière à laquelle les souverains des six royaumes voisins sont invités à participer. Invités, ou plutôt contraints, car c'est là leur seule et unique chance de briser la malédiction qui s'est abattue sur leurs peuples respectifs depuis près de cinq siècles, corrompant irrémédiablement leurs pouvoirs. Chacun des six adversaires a quelque...",
+        "author": "Alex Aster",
+        "price": 17,
+        "themes": ["Fantasy", "Malédiction", "Romance", "Pouvoir", "Pouvoirs magiques", "Young Adult"],
+        "release_date": "23 mars 2023 (Français)",
+        "image": "lightlark-tome-1.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Atlas, Tome 1 : Atlas Six",
+        "synopsis": "Une fois par décennie, les six magiciens les plus talentueux de leur génération sont appelés à concourir pour gagner leur place au sein de la Société des Alexandriens, l'organisation la plus secrète et la plus élitiste au monde. Les élus se verront accorder une vie de savoir infini, de pouvoir et de prestige qui dépassera même leurs rêves les plus insensés. Chacune des six nouvelles recrues a des motivations qui lui sont propres pour accepter l'invitation ambiguë de la Société – même si cela les implique de se rapprocher de son pire ennemi ou de trahir ses alliés les plus fidèles. Et tous se battront sans relâche pour obtenir le droit de rejoindre les rangs des Alexandriens. Quitte à prendre le risque de ne pas survivre.",
+        "author": "Olivie Blake",
+        "price": 18.95,
+        "themes": ["Magie", "Dark academia", "Fantasy", "Magiciens", "Young Adult", "Différents points de vue"],
+        "release_date": "13 octobre 2022 (Français)",
+        "image": "atlas-tome-1.jpg"
     }
 ]

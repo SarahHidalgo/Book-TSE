@@ -3,8 +3,8 @@
     <div class="container">
       <ul>
         <li *ngFor="let product of (products_b | async)" class="product"  [routerLink]="['/products', product.id]">
-          <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
-          <p>{{ product.name }}</p>
+          <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" >
+          <p>{{ product.title }}</p>
           <p>Price: {{ product.price }} $</p>
         </li>
       </ul>
@@ -13,8 +13,8 @@
     <div class="container">
       <ul>
         <li *ngFor="let product of (products_b | async)" class="product"  [routerLink]="['/products', product.id]">
-          <img [src]="'assets/images/' + product.image" alt="{{ product.name }}" >
-          <p>{{ product.name }}</p>
+          <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" >
+          <p>{{ product.title }}</p>
           <p>Price: {{ product.price }} $</p>
         </li>
       </ul>
