@@ -9,7 +9,7 @@
                     <p> <strong>Email : </strong> {{user.email}} </p>
                 </div>
             </div>
-            <button type="button" class="btn_user_details"> → Go to details </button>
+            <button type="button" class="btn_user_details" [routerLink]="['/users', user.id_u]"> → Go to details </button>
         </li>
     </ul>
 </div>
