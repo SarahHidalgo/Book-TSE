@@ -1,4 +1,5 @@
 <div class="user-details" *ngIf="user">
+    <img src="assets/logos/logo-fleche.png" alt="img-fleche" class="img-fleche" [routerLink]="['/users']">
     <div class="img-infos">
         <img [src]="'assets/images/' + user.profil_pic" alt="{{ user.profil_pic }}">
         <div class="user-infos">

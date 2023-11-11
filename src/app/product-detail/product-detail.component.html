@@ -1,6 +1,9 @@
 <div class="product-details" *ngIf="product">
     <div class="title_img">
-        <h2>{{ product.title }}</h2>
+        <div class="title-back">
+            <img src="assets/logos/logo-fleche.png" alt="img-fleche" class="img-fleche" [routerLink]="['/products']">
+            <h2>{{ product.title }}</h2>
+        </div>
         <img [src]="'assets/images/' + product.image" alt="{{ product.image }}" >
     </div>
     <div class="details">
@@ -31,7 +34,7 @@
                 {{ product.themes }}
             </div>
         </div>
-        <button class="btn_buy"> Buy </button>
+        <button class="btn_buy" (click)="buy_items()"> Buy </button>
     </div>
 </div>
 

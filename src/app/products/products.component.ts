@@ -19,13 +19,19 @@ export class ProductsComponent implements OnInit {
   productsSciFi: Observable<Products[]> | undefined; // Liste pour les livres de Science Fiction
   productsRomance: Observable<Products[]> | undefined; // Liste pour les livres de Romance
   productsThriller: Observable<Products[]> | undefined; // Liste pour les livres Thriller
+  productsMagic: Observable<Products[]> | undefined; // Liste pour les livres de Magie
 
   constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
-
     this.showProducts();
   }
+
+  buy_items() {
+    // Affichage d'une alerte avec infos remplies
+    alert(`Le produit à été ajouté au panier (imaginaire)`)
+  }
+
 
   showProducts() {
     //this.products_b = this.apiService.getProducts();
@@ -65,6 +71,12 @@ export class ProductsComponent implements OnInit {
       this.productsThriller = new Observable(observer => {
         const filteredThrillerProducts = products.filter(product => product.themes.includes("Thriller"));
         observer.next(filteredThrillerProducts);
+      });
+
+      // Filter products for the sixth container (Thriller)
+      this.productsMagic = new Observable(observer => {
+        const filteredMagicProducts = products.filter(product => product.themes.includes("Magie"));
+        observer.next(filteredMagicProducts);
       });
 
     });
