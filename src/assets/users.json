@@ -1,97 +1,103 @@
 [
     {
-        "id_u": 0001,
+        "id_u": 1,
         "title": "Mr",
         "first_name": "Auguste",
         "last_name": "Gusteau",
         "email": "ttlemnd_peut_cuisiner@ratatouille.fr",
         "address": "23 Rue de la Sauce, 75012, Paris, FRANCE" ,
-        "birth_date":"13 juin 1929"
+        "birth_date":"13 juin 1929",
+        "profil_pic": "auguste-gusteau.jpg"
     
     },
     {
-        "id_u": 0002,
+        "id_u": 2,
         "title": "Mr",
         "first_name": "Eddy",
         "last_name": "Gourmand",
-        "email": "coockie_riche@gmal.fr",
+        "email": "cookie_riche@gmail.fr",
         "address": "36 Allée des Délices, 56123, Garfield-Ville, United-States" ,
-        "birth_date":"12 avril 1973"
+        "birth_date":"12 avril 1973",
+        "profil_pic":"cookie.jpg"
     },
     {
-        "id_u": 0003,
+        "id_u": 3,
         "title": "Mss",
         "first_name": "Bella",
         "last_name": "Swan",
         "email": "cringe@hotmail.com",
         "address": "61 Rue de la Stupidité, 56903, Forks, United-States " ,
-        "birth_date":"13 Septembre 1987"
+        "birth_date":"13 Septembre 1987",
+        "profil_pic": "bella.jpg"
     },
     {
-        "id_u": 0004,
+        "id_u": 4,
         "title": "Mr",
         "first_name": "Edward",
         "last_name": "Cullen",
         "email": "whatdoweeat@hotmail.com",
         "address": "2 Allée du Vampire, 56903, Forks, United-States" ,
-        "birth_date":"20 juin 1901"
+        "birth_date":"20 juin 1901",
+        "profil_pic": "edward.jpg"
     },
     {
-        "id_u": 0005,
+        "id_u": 5,
         "title": "Mss",
         "first_name": "Taylor",
         "last_name": "Swift",
         "email": "erastour@swifty.com",
         "address": "54 Avenue of Fame, 76478, Los Angeles, United-States" ,
-        "birth_date":"13 décembre 1989"
+        "birth_date":"13 décembre 1989",
+        "profil_pic":"taylor.jpg"
     },
     {
-        "id_u": 0006,
+        "id_u": 6,
         "title": "Ms",
         "first_name": "Molly",
         "last_name": "Weasley",
         "email": "drives@crazy.gb",
         "address": "The Burrow, South Hill, Great-Britain" ,
-        "birth_date":"30 octobre 1949"
+        "birth_date":"30 octobre 1949",
+        "profil_pic": "molly.jpg"
     },
     {
-        "id_u": 0007,
+        "id_u": 7,
         "title": "Mr",
         "first_name": "Harry",
         "last_name": "Potter",
         "email": "chosen@one.com",
         "address": "4 Rue Privet Drive, 78902, Little Whinging, Great-Britain " ,
-        "birth_date":"30 octobre 1949"
+        "birth_date":"30 octobre 1949",
+        "profil_pic": "harry.jpg"
     },
     {
-        "id_u": 0008,
+        "id_u": 8,
         "title": "Ms",
         "first_name": "Laura",
         "last_name": "Tatouille",
         "email": "culinaire@family.com",
         "address": "57 Rue de la nourriture, 69000, Lyon, France " ,
-        "birth_date":"5 octobre 1980"
+        "birth_date":"5 octobre 1980",
+        "profil_pic":"laura.jpg"
     },
     {
-        "id_u": 0009,
+        "id_u": 9,
         "title": "M",
         "first_name": "Emile",
         "last_name": "LeRat",
         "email": "cousin_de_remy@ratatouille.com",
         "address": "7 Rue des Egouts, 75012, Paris, France " ,
-        "birth_date":"30 octobre 1949"
+        "birth_date":"30 octobre 1949",
+        "profil_pic":"emile.jpg"
     },
     {
-        "id_u": 0010,
+        "id_u": 10,
         "title": "Ms",
         "first_name": "Annie",
         "last_name": "LaMaire",
         "email": "paris@relou.fr",
         "address": "46 Rue des vacances, 98735, Tahiti, Polynésie Française " ,
-        "birth_date":"19 juin 1959"
-    },
-  
-  
-  
-  
+        "birth_date":"19 juin 1959",
+        "profil_pic": "annie.jpg"
+    }
 ]
