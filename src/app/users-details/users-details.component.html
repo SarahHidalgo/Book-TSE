@@ -1,1 +1,12 @@
-<p>users-details works!</p>
+<div class="user-details" *ngIf="user">
+    <div class="img-infos">
+        <img [src]="'assets/images/' + user.profil_pic" alt="{{ user.profil_pic }}">
+        <div class="user-infos">
+            <h2><strong> {{user.title}} {{user.first_name}} {{user.last_name}} </strong></h2>
+            <p> <strong>Id : </strong> {{user.id_u}}</p>
+            <p> <strong>Email : </strong> {{user.email}} </p>
+            <p> <strong> Address : </strong> {{user.address}} </p>
+            <p> <strong> Birth Date : </strong> {{user.birth_date}} </p>
+        </div>
+    </div>
+</div>

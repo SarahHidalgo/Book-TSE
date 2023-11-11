@@ -15,7 +15,7 @@ export class ProductDetailComponent implements OnInit {
   constructor(private route: ActivatedRoute, private apiService: ApiService) {
   }
 
-ngOnInit() {
+  ngOnInit() {
     const idString = this.route.snapshot.paramMap.get('id');
     if (idString !== null) {
       const id = parseInt(idString);

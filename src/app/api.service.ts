@@ -32,5 +32,12 @@ export class ApiService {
       map(products => products.find(product => product.id === id))
     );
   }
+
+    //Récupération d'un user en fonction de son id
+    getUser(id_u: number) {
+      return this.getUsers().pipe(
+        map(users => users.find(user => user.id_u === id_u))
+      );
+    }
   
 }
