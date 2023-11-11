@@ -4,16 +4,16 @@
     <nav>
         <ul style="list-style-type:none;">
             <li>
-                <a routerLink="/products" routerLinkActive="active"> Products </a>
+                <a routerLink="/products" routerLinkActive="active" [ngClass]="{'active': activeRoute === 'products'}"> Products </a>
             </li>
             <li>
-                <a routerLink="/orders" routerLinkActive="active"> Orders </a>
+                <a routerLink="/orders" routerLinkActive="active" [ngClass]="{'active': activeRoute === 'orders'}" > Orders </a>
             </li>
             <li>
-                <a routerLink="/users" routerLinkActive="active"> Users </a>
+                <a routerLink="/users" routerLinkActive="active" [ngClass]="{'active': activeRoute === 'users'}"> Users </a>
             </li>
             <li>
-                <a routerLink="/contact_form" routerLinkActive="active" > Contact Form </a>
+                <a routerLink="/contact_form" routerLinkActive="active"  [ngClass]="{'active': activeRoute === 'contact_form'}" > Contact Form </a>
             </li>
         </ul>
     </nav>

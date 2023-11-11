@@ -7,19 +7,27 @@
     padding: 0px;
 }
 .body_app h1 {
-    text-align: center; /* Centrer le texte horizontalement */
+    text-align: center; 
 }
 h1 {
-    font-family: 'Alegreya', serif; /* Police avec empattement */
-  font-weight: 100; /* Utiliser la variante "Thin" */
-  font-size: 36px; /* Ajuster la taille */
+    font-family: 'Alegreya', serif; 
+    font-weight: 100px; 
+    font-size: 36px;
+    color: #412300;
+}
+  
+/*Mise en avant  de la barre de nav active*/
+.active {
+    border-bottom: 2px solid #eba550;
+    color: #eba550;
+    font-weight: bold;
 }
   
 
 /*CSS navigation*/
 nav {
     display: flex;
-    margin: 0;
+    margin: 0px;
     margin-bottom: 15px;
     height: 50px;
     align-items: center;
@@ -36,18 +44,27 @@ ul{
     align-items: center;
     align-content: center;
     width: 100%;
-    margin: 0;
+    margin: 0px;
 }
 li {
+    display: flex;
     list-style-type:none;
     margin: 15px;
-    margin: 0; 
+    margin: 0px; 
 }
 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration:none;
-    margin: 0;
-    color: black;
+    font-weight: bold;
+    font-size: large;
+    height: 45px;
+    width: 140px;
+    margin: 0px;
+    padding: 0px;
+    color: #412300;
 }
 nav a:hover {
-    text-decoration: underline;
+    color: #eba550;
 }
