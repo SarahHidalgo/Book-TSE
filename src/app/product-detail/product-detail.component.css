@@ -4,6 +4,18 @@
     justify-content: center;
     align-items: flex-start;
 }
+.img-fleche{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-style: none;
+    margin-right: 30px;
+}
+.title-back{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 /*Titre et image du livre selectionné*/
 h2{
