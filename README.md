@@ -15,6 +15,8 @@ Les listes des produits, commandes et utilisateurs sont chargées sur des fichie
 # Démarrage de l'app
 
 Afin de pouvoir démarrer l'app, il est nécessaire d'effectuer les commandes suivantes si cela n'est pas déjà fait : npm install puis npm install -g @angular/cli
+
 Ensuite, pour lancer l'application, il faut entrer la commande suivante : ng serve --open
+
 L'application s'ouvre sur le navigateur à l'adresse : localhost:4200
 
