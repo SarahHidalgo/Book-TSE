@@ -20,3 +20,4 @@ Ensuite, pour lancer l'application, il faut entrer la commande suivante : ng ser
 
 L'application s'ouvre sur le navigateur à l'adresse : localhost:4200
 
+NB : Nous avons utiliser la version 18.13 de Node
