@@ -208,5 +208,15 @@
         "themes": ["Magie", "Dark academia", "Fantasy", "Magiciens", "Young Adult", "Différents points de vue"],
         "release_date": "13 octobre 2022 (Français)",
         "image": "atlas-tome-1.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Le Prince des Voleurs",
+        "synopsis": "Fuyant leur tante qui veut les séparer, deux orphelins, Prosper, 12 ans et son petit frère Bo, 5 ans, ont fugué depuis Hambourg pour rallier la ville de la lune dont leur mère leur parlait sans cesse. Ils ont été recueillis par une bande de petits gamins des rues, qui vivent en s'entraidant, à l'insu de tous dans un cinéma désaffecté. Pour assurer leur survie, leur protecteur, Scipio, dit le Prince des voleurs leur confie des objets précieux que Prosper, habile négociateur, écoule auprès du redoutable antiquaire Barbarossa. Mais Scipio est-il réellement cet Arsène Lupin miniature, qui dévalise habilement les plus riches palais vénitiens ?",
+        "author": "Cornelia Funke",
+        "price": 5.97,
+        "themes": ["Jeunesse", "Mystère", "Suspens", "Magie", "Venise"],
+        "release_date": "1er février 2000 (Allemand)",
+        "image": "lpdv.jpg"
     }
 ]

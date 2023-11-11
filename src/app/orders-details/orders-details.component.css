@@ -9,10 +9,22 @@
 }
 h1{
     margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
     color: #412300;
 }
 h2{
     color: #412300;
+}
+.img-back{
+    display: flex;
+    align-items: center;
+}
+.img-fleche{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-style: none;
 }
 
 /*Order infos div*/

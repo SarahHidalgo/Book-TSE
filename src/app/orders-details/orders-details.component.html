@@ -1,5 +1,8 @@
 <div class="order-details" *ngIf="order">
-    <h1> <strong> Order's Id : </strong> #{{order.id_o}}</h1>
+    <div class="img-back">
+        <img src="assets/logos/logo-fleche.png" alt="img-fleche" class="img-fleche" [routerLink]="['/orders']">
+        <h1> <strong> Order's Id : </strong> #{{order.id_o}}</h1>
+    </div>
     <div class="container">
         <div class="order-infos">
             <div class="img_and_name">
