@@ -8,4 +8,5 @@ export interface Users {
     email: string;
     address: string;
     birth_date: string;
+    profil_pic: string;
 }
