@@ -55,11 +55,15 @@ label{
 button {
     width: 80px;
     height: 30px;
-    border-radius: 1px;
+    border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-style: none;
     background-color:#eba550;
+}
+button:hover {
+    background-color: #ec870c;
+    color: #000;
 }
 em{
     color: red;
