@@ -1,22 +1,68 @@
-  <div class="body_products">
-    <h2 class="genres"> Fantasy 🐉 </h2>
-    <div class="container">
-      <ul>
-        <li *ngFor="let product of (products_b | async)" class="product"  [routerLink]="['/products', product.id]">
-          <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" >
-          <p>{{ product.title }}</p>
-          <p>Price: {{ product.price }} $</p>
-        </li>
-      </ul>
-    </div>
-    <h2 class="genres"> Science Fiction </h2>
-    <div class="container">
-      <ul>
-        <li *ngFor="let product of (products_b | async)" class="product"  [routerLink]="['/products', product.id]">
-          <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" >
-          <p>{{ product.title }}</p>
-          <p>Price: {{ product.price }} $</p>
-        </li>
-      </ul>
-    </div>
+<div class="body_products">
+  <h2 class="genres"> Fantasy </h2>
+  <div class="container">
+    <ul>
+      <li *ngFor="let product of (productsFantasy | async)!" class="product" >
+        <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" [routerLink]="['/products', product.id]">
+        <p>{{ product.title }}</p>
+        <p>Price: {{ product.price }} €</p>
+        <button type="button" class="buy_btn"> Buy </button>
+      </li>
+    </ul>
   </div>
+  <h2 class="genres"> Romance </h2>
+  <div class="container">
+    <ul>
+      <li *ngFor="let product of (productsRomance | async)!" class="product" >
+        <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" [routerLink]="['/products', product.id]">
+        <p>{{ product.title }}</p>
+        <p>Price: {{ product.price }} €</p>
+        <button type="button" class="buy_btn"> Buy </button>
+      </li>
+    </ul>
+  </div>
+  <h2 class="genres"> Mythologie Grecque </h2>
+  <div class="container">
+    <ul>
+      <li *ngFor="let product of (productsMythology | async)!" class="product" >
+        <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" [routerLink]="['/products', product.id]">
+        <p>{{ product.title }}</p>
+        <p>Price: {{ product.price }} €</p>
+        <button type="button" class="buy_btn"> Buy </button>
+      </li>
+    </ul>
+  </div>
+  <h2 class="genres"> Fantastique </h2>
+  <div class="container">
+    <ul>
+      <li *ngFor="let product of (productsFantastic | async)!" class="product" >
+        <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" [routerLink]="['/products', product.id]">
+        <p>{{ product.title }}</p>
+        <p>Price: {{ product.price }} €</p>
+        <button type="button" class="buy_btn"> Buy </button>
+      </li>
+    </ul>
+  </div>
+  <h2 class="genres"> Science Fiction </h2>
+  <div class="container">
+    <ul>
+      <li *ngFor="let product of (productsSciFi | async)!" class="product" >
+        <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" [routerLink]="['/products', product.id]">
+        <p>{{ product.title }}</p>
+        <p>Price: {{ product.price }} €</p>
+        <button type="button" class="buy_btn"> Buy </button>
+      </li>
+    </ul>
+  </div>
+  <h2 class="genres"> Thriller </h2>
+  <div class="container">
+    <ul>
+      <li *ngFor="let product of (productsThriller | async)!" class="product">
+        <img [src]="'assets/images/' + product.image" alt="{{ product.title }}" [routerLink]="['/products', product.id]">
+        <p>{{ product.title }}</p>
+        <p>Price: {{ product.price }} €</p>
+        <button type="button" class="buy_btn"> Buy </button>
+      </li>
+    </ul>
+  </div>
+</div>
