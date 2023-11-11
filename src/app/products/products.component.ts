@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductsService } from '../products.service';
+import { ApiService } from '../api.service';
 import { Products } from '../interfaces/products';
 import { Observable } from 'rxjs';
 
@@ -13,7 +13,7 @@ export class ProductsComponent implements OnInit {
   
   products_b: Observable<Products[]> | undefined;
 
-  constructor(private productsService: ProductsService) { }
+  constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
 
@@ -21,6 +21,6 @@ export class ProductsComponent implements OnInit {
   }
 
   showProducts() {
-    this.products_b = this.productsService.getProducts();
+    this.products_b = this.apiService.getProducts();
   }
 }

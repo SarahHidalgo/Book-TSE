@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProductsService } from '../products.service';
+import { ApiService } from '../api.service';
 import { Users } from '../interfaces/users';
 import { Observable } from 'rxjs';
 
@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 export class UsersComponent {
   users: Observable<Users[]> | undefined;
 
-  constructor(private productsService: ProductsService) { }
+  constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
 
@@ -19,6 +19,6 @@ export class UsersComponent {
   }
 
   showUsers() {
-    this.users = this.productsService.getUsers();
+    this.users = this.apiService.getUsers();
   }
 }

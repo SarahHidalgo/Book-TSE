@@ -2,7 +2,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ProductsService } from '../products.service';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-product-detail',
@@ -12,14 +12,14 @@ import { ProductsService } from '../products.service';
 export class ProductDetailComponent implements OnInit {
   product: any;
 
-  constructor(private route: ActivatedRoute, private productsService: ProductsService) {
+  constructor(private route: ActivatedRoute, private apiService: ApiService) {
   }
 
 ngOnInit() {
     const idString = this.route.snapshot.paramMap.get('id');
     if (idString !== null) {
-      const id = parseInt(idString); // Convertir la chaîne en nombre
-      this.productsService.getProduct(id).subscribe(product => {
+      const id = parseInt(idString);
+      this.apiService.getProduct(id).subscribe(product => {
         this.product = product;
       });
     } else {

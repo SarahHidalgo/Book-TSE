@@ -10,7 +10,7 @@ import { Observable, map } from 'rxjs';
   providedIn: 'root'
 })
 
-export class ProductsService {
+export class ApiService {
   apiUrl_products : string = 'assets/products.json';
   apiUrl_users :string = 'assets/users.json';
 
