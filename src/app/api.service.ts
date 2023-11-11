@@ -10,7 +10,7 @@ import { Observable, map } from 'rxjs';
   providedIn: 'root'
 })
 
-export class ProductsService {
+export class ApiService {
   apiUrl_products : string = 'assets/products.json';
   apiUrl_users :string = 'assets/users.json';
 
@@ -32,5 +32,12 @@ export class ProductsService {
       map(products => products.find(product => product.id === id))
     );
   }
+
+    //Récupération d'un user en fonction de son id
+    getUser(id_u: number) {
+      return this.getUsers().pipe(
+        map(users => users.find(user => user.id_u === id_u))
+      );
+    }
   
 }
