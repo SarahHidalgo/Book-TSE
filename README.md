@@ -1,28 +1,15 @@
 <<<<<<< HEAD
 # ProjectBookstore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Ce projet a été réalisé par Coué Mélodie et Hidalgo Sarah. Nous avons fait le choix d'utiliser des livres afin de remplir nos fichiers json. 
+Sur ce site vous pourrez trouver une barre de navigation avec :
+- nos produits et leurs détails lors du clique sur ce dernier
+- nos orders et les détails d'un order (clique sur détails)
+- nos users et les détails d'un user (clique sur détails)
+- notre contact-form qui envoie une alert lors du submit
 
-## Development server
+# Démarrage de l'app
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Afin de pouvoir démarrer l'app, il est nécessaire d'effectuer les commandes suivantes si cela n'est pas déjà fait : npm install et npm install -g @angular/cli
+Et pour lancer l'appli, entrez la commande suivante : ng serve --open (ouverture sur localhost:4200)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
