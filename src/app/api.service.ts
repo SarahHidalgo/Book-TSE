@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Products } from "./interfaces/products";
 import { Users } from './interfaces/users';
+import { Orders } from './interfaces/orders';
 import { Observable, map } from 'rxjs';
 
 @Injectable({
@@ -12,7 +13,8 @@ import { Observable, map } from 'rxjs';
 
 export class ApiService {
   apiUrl_products : string = 'assets/products.json';
-  apiUrl_users :string = 'assets/users.json';
+  apiUrl_users : string = 'assets/users.json';
+  apiUrl_orders : string = 'assets/orders.json';
 
   constructor(private http: HttpClient) {  }
 
@@ -26,6 +28,11 @@ export class ApiService {
     return this.http.get<Users[]>(this.apiUrl_users);
   }
 
+  // Récupération de tous les orders de l'api
+  getOrders(): Observable<Orders[]> {
+    return this.http.get<Orders[]>(this.apiUrl_orders);
+  }
+
   //Récupération d'un produit en fonction de l'id
   getProduct(id: number) {
     return this.getProducts().pipe(
@@ -33,11 +40,11 @@ export class ApiService {
     );
   }
 
-    //Récupération d'un user en fonction de son id
-    getUser(id_u: number) {
-      return this.getUsers().pipe(
-        map(users => users.find(user => user.id_u === id_u))
-      );
-    }
+  //Récupération d'un user en fonction de son id
+  getUser(id_u: number) {
+    return this.getUsers().pipe(
+      map(users => users.find(user => user.id_u === id_u))
+    );
+  }
   
 }

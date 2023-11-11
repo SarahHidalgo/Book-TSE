@@ -23,7 +23,7 @@ legend{
     text-align: center;
     font-size: 35px;
     margin-bottom: 15px;
-    color: #362d22;
+    color: #412300;
 }
 
 .form-group {
@@ -50,7 +50,7 @@ input{
     margin-top: 5px;
 }
 label{
-    color: #18140f;
+    color: #412300;
 }
 button {
     width: 80px;
