@@ -8,6 +8,7 @@
 /*Titre et image du livre selectionné*/
 h2{
     color: #412300;
+    text-align: center;
 }
 img {
     width: 350px;
