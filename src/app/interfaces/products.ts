@@ -1,3 +1,4 @@
+//products.ts
 export interface Products {
     id: number;
     title: string;

@@ -46,5 +46,12 @@ export class ApiService {
       map(users => users.find(user => user.id_u === id_u))
     );
   }
+
+  //Récupération d'une order en fonction de son id
+  getOrder(id_o: number) {
+    return this.getOrders().pipe(
+      map(orders => orders.find(order => order.id_o === id_o))
+    );
+  }
   
 }

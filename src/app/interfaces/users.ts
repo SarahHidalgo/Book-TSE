@@ -1,5 +1,4 @@
 // users.ts
-
 export interface Users {
     id_u: number;
     title: string;

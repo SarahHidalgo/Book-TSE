@@ -1,1 +1,25 @@
-<p>orders-details works!</p>
+<div class="order-details" *ngIf="order">
+    <h1> <strong> Order's Id : </strong> #{{order.id_o}}</h1>
+    <div class="container">
+        <div class="order-infos">
+            <div class="img_and_name">
+                <img *ngIf="user" [src]="'assets/images/' + user.profil_pic" alt="{{ user?.profil_pic }}" class="img_user">
+                <h2><strong> {{order.title}} {{order.first_name}} {{order.last_name}} </strong></h2>
+            </div>
+            <p> <strong> Date : </strong> {{order.date}} </p>
+            <p> <strong> User's Id : </strong> {{order.id_u}}</p>
+            <p> <strong> Address : </strong> {{order.address}} </p>
+            <p> <strong> Total price : </strong> {{order.total}} €</p>
+        </div>
+        <div class="infos_products">
+            <h2> Products </h2>
+            <div *ngIf="products && products.length > 0" class="products_div">
+                <div *ngFor="let product of products" class="infos_books">
+                    <img [src]="'assets/images/' + product.image" alt="{{ product.image }}" class="img_books">
+                    <p><strong>Title:</strong> {{ product.title }}</p>
+                    <p><strong>Author:</strong> {{ product.author }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
