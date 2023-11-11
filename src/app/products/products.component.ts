@@ -29,7 +29,7 @@ export class ProductsComponent implements OnInit {
 
   buy_items() {
     // Affichage d'une alerte avec infos remplies
-    alert(`Le produit à été ajouté au panier (imaginaire)`)
+    alert(`Le produit a été ajouté au panier (imaginaire)`)
   }
 
 
